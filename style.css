@@ -1,0 +1,410 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.btn-signin {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+.btn-signin:hover {
+    background-color: #333;
+    color: white;
+
+}
+
+.change-style {
+
+    font-family: Helvetica;
+    font-size: 28.39px;
+    font-weight: 700;
+    line-height: 36.1px;
+    text-align: center;
+
+
+}
+
+
+.nav-item {
+    position: relative;
+    right: 50%;
+    font-family: Helvetica;
+    font-size: 26.11px;
+    font-weight: 400;
+    line-height: 31.18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media screen and (max-width:800px) {
+    .nav-item a {
+        position: relative;
+        left: 90px;
+    }
+
+    .btn-signin {
+        position: relative;
+        left: 10px;
+        background-color: #000;
+    }
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    line-height: 80px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    font-family: Helvetica Light;
+    font-size: 30.17px;
+    font-weight: 400;
+    line-height: 39.53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn-cta {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-cta:hover {
+    background-color: #333;
+}
+
+.hero-image {
+    max-width:100% ;}
+
+    .feature-card {
+        border: 1px solid #000;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .feature-card img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+      }
+      .feature-card h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .feature-card p {
+        color: #333;
+        font-size: 14px;
+      }
+      .sec-2{
+        display: flex;
+        position: relative;
+      }
+  .para-2 p{
+    font-family: Helvetica Light;
+    top: 25px;
+    font: weight 400px;
+    font-size: 32px;
+    line-height: 39.33px;
+    text-align: justify;
+  }
+  .heading-2{
+align-items: center;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 1;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card .icon {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .container-2{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .nav-item {
+        right: 0; /* Center align navigation items */
+        text-align: center;
+    }
+
+    .nav-item a {
+        left: 0;
+        margin: 0 auto; /* Center align links */
+    }
+
+    .btn-signin {
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        line-height: 1.5;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .btn-cta {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .hero-image {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .feature-card img {
+        max-width: 40px;
+        margin: 0 auto 10px;
+    }
+
+    .feature-card h5 {
+        font-size: 1rem;
+    }
+
+    .feature-card p {
+        font-size: 0.85rem;
+    }
+
+    .sec-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sec-2 img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .para-2 p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 90%; /* Adjust width for small screens */
+    }
+}
+.signup-heading {
+    font-family: Helvetica;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+
+}
+
+.input-group input{
+
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+
+
+
+.input-group button{
+    
+    width: 30%;
+    
+}
+
+
+@media (max-width: 600px) {
+    .signup-form {
+        padding-top: 60px;
+    }
+    
+}
+.heading-center h1{
+    display:flex;
+    width: 374px;
+height: 69px;
+top: 1652px;
+left: 533px;
+gap: 0px;
+opacity: 0px;
+font-family: Helvetica;
+font-size: 60px;
+font-weight: 700;
+line-height: 68.99px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+justify-content: center;
+align-items: center;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    }
+    
+    
+    
+    footer .logo-content span {
+        font-family: Helvetica;
+        font-size: 32.88px;
+        font-weight: 700;
+        line-height: 20.11px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        position: relative;
+        top: 10px;
+        
+    }
+    
+    
+    footer .logo-content p{
+        width: 30%;
+        padding-top: 10px;
+    }
+    footer .logo-content h1{
+        
+    font-size: 20px;
+    font-family: Helvetica;
+    
+    
+    }
+    
+    .menu-links{
+        display: flex;
+        padding-top: 30px;
+        
+    }
+    
+    
+    
+    .menu-links ul {
+    
+    padding: 0 40px;
+    }
+    .menu-links ul li{
+        list-style-type:none;
+        line-height: 39px;
+        
+    }
